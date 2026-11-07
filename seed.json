@@ -1,0 +1,797 @@
+{
+  "version": 1,
+  "sessionUserId": "u_admin",
+  "users": [
+    {
+      "id": "u_admin",
+      "name": "Meera Iyer",
+      "role": "admin",
+      "email": "meera.iyer@inkflow.example",
+      "specialty": "Managing Editor"
+    },
+    {
+      "id": "u_e1",
+      "name": "Rohan Kapoor",
+      "role": "editor",
+      "email": "rohan.kapoor@inkflow.example",
+      "specialty": "Fiction & Fantasy"
+    },
+    {
+      "id": "u_e2",
+      "name": "Ananya Rao",
+      "role": "editor",
+      "email": "ananya.rao@inkflow.example",
+      "specialty": "Non-fiction & Academic"
+    },
+    {
+      "id": "u_e3",
+      "name": "Imran Sheikh",
+      "role": "editor",
+      "email": "imran.sheikh@inkflow.example",
+      "specialty": "Children's & Illustrated"
+    },
+    {
+      "id": "u_a1",
+      "name": "Kavya Menon",
+      "role": "author",
+      "email": "kavya.menon@example.com",
+      "specialty": "Fantasy, Academic"
+    },
+    {
+      "id": "u_a2",
+      "name": "Arjun Verma",
+      "role": "author",
+      "email": "arjun.verma@example.com",
+      "specialty": "Memoir, Poetry"
+    },
+    {
+      "id": "u_a3",
+      "name": "Sofia D'Souza",
+      "role": "author",
+      "email": "sofia.dsouza@example.com",
+      "specialty": "Science Fiction, Romance"
+    },
+    {
+      "id": "u_a4",
+      "name": "Vikram Chauhan",
+      "role": "author",
+      "email": "vikram.chauhan@example.com",
+      "specialty": "Mystery, Food writing"
+    },
+    {
+      "id": "u_a5",
+      "name": "Nisha Banerjee",
+      "role": "author",
+      "email": "nisha.banerjee@example.com",
+      "specialty": "Gardening, Children's"
+    }
+  ],
+  "manuscripts": [
+    {
+      "id": "ms_001",
+      "title": "The Lantern Keepers of Hollow Bay",
+      "genre": "Fantasy",
+      "synopsis": "A fishing village's last lantern keepers discover the lights they tend are holding back something far older than the sea.",
+      "wordCount": 94000,
+      "authorId": "u_a1",
+      "editorId": "u_e1",
+      "stage": "editing",
+      "revisionStatus": "requested",
+      "revisionCount": 1,
+      "approvalStatus": "pending",
+      "publicationStatus": "unpublished",
+      "isbn": null,
+      "pubDate": null,
+      "deadline": "2026-11-20",
+      "createdAt": "2026-10-24T09:10:00.000Z",
+      "updatedAt": "2026-10-28T10:10:00.000Z",
+      "history": [
+        {
+          "stage": "submitted",
+          "at": "2026-10-24T09:10:00.000Z",
+          "by": "u_a1",
+          "note": "Manuscript submitted"
+        },
+        {
+          "stage": "editing",
+          "at": "2026-10-28T10:10:00.000Z",
+          "by": "u_e1",
+          "note": "Moved to editing"
+        }
+      ],
+      "comments": [
+        {
+          "id": "c_0_0",
+          "userId": "u_e1",
+          "text": "Thanks for the submission. I've started a first read — overall structure is strong.",
+          "stage": "editing",
+          "kind": "comment",
+          "at": "2026-10-24T11:30:00.000Z"
+        },
+        {
+          "id": "c_0_1",
+          "userId": "u_e1",
+          "text": "Chapters 7–9 slow the pacing. Please tighten them and clarify the lantern rules before chapter 3.",
+          "stage": "editing",
+          "kind": "revision",
+          "at": "2026-10-27T15:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ms_002",
+      "title": "Monsoon Ledger: A Merchant's Memoir",
+      "genre": "Biography",
+      "synopsis": "Three generations of spice traders in Kochi, told through the account books that survived the floods of 1924.",
+      "wordCount": 62500,
+      "authorId": "u_a2",
+      "editorId": "u_e2",
+      "stage": "proofreading",
+      "revisionStatus": "accepted",
+      "revisionCount": 1,
+      "approvalStatus": "pending",
+      "publicationStatus": "unpublished",
+      "isbn": null,
+      "pubDate": null,
+      "deadline": "2026-11-12",
+      "createdAt": "2026-10-19T09:11:00.000Z",
+      "updatedAt": "2026-10-27T11:11:00.000Z",
+      "history": [
+        {
+          "stage": "submitted",
+          "at": "2026-10-19T09:11:00.000Z",
+          "by": "u_a2",
+          "note": "Manuscript submitted"
+        },
+        {
+          "stage": "editing",
+          "at": "2026-10-23T10:11:00.000Z",
+          "by": "u_e2",
+          "note": "Moved to editing"
+        },
+        {
+          "stage": "proofreading",
+          "at": "2026-10-27T11:11:00.000Z",
+          "by": "u_e2",
+          "note": "Moved to proofreading"
+        }
+      ],
+      "comments": [
+        {
+          "id": "c_1_0",
+          "userId": "u_e2",
+          "text": "Thanks for the submission. I've started a first read — overall structure is strong.",
+          "stage": "editing",
+          "kind": "comment",
+          "at": "2026-10-23T11:30:00.000Z"
+        },
+        {
+          "id": "c_1_1",
+          "userId": "u_e2",
+          "text": "Revision looks good — moving it along.",
+          "stage": "proofreading",
+          "kind": "comment",
+          "at": "2026-10-26T16:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ms_003",
+      "title": "Quantum Gardens",
+      "genre": "Science Fiction",
+      "synopsis": "A botanist on a generation ship learns that the ship's gardens are quietly rewriting the crew's memories.",
+      "wordCount": 81200,
+      "authorId": "u_a3",
+      "editorId": "u_e1",
+      "stage": "cover",
+      "revisionStatus": "none",
+      "revisionCount": 0,
+      "approvalStatus": "pending",
+      "publicationStatus": "unpublished",
+      "isbn": null,
+      "pubDate": null,
+      "deadline": "2026-11-30",
+      "createdAt": "2026-10-14T09:12:00.000Z",
+      "updatedAt": "2026-10-28T10:30:00.000Z",
+      "history": [
+        {
+          "stage": "submitted",
+          "at": "2026-10-14T09:12:00.000Z",
+          "by": "u_a3",
+          "note": "Manuscript submitted"
+        },
+        {
+          "stage": "editing",
+          "at": "2026-10-18T10:12:00.000Z",
+          "by": "u_e1",
+          "note": "Moved to editing"
+        },
+        {
+          "stage": "proofreading",
+          "at": "2026-10-22T11:12:00.000Z",
+          "by": "u_e1",
+          "note": "Moved to proofreading"
+        },
+        {
+          "stage": "cover",
+          "at": "2026-10-26T12:12:00.000Z",
+          "by": "u_e1",
+          "note": "Moved to cover"
+        }
+      ],
+      "comments": [
+        {
+          "id": "c_2_0",
+          "userId": "u_e1",
+          "text": "Thanks for the submission. I've started a first read — overall structure is strong.",
+          "stage": "editing",
+          "kind": "comment",
+          "at": "2026-10-22T11:30:00.000Z"
+        },
+        {
+          "id": "c_2_1",
+          "userId": "u_e1",
+          "text": "Cover brief shared with the illustrator. Two concepts due early next week.",
+          "stage": "cover",
+          "kind": "comment",
+          "at": "2026-10-28T10:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ms_004",
+      "title": "Seven Stitches",
+      "genre": "Mystery",
+      "synopsis": "A retired tailor in Lucknow reads a murder in the hem of a wedding sherwani and has seven days to prove it.",
+      "wordCount": 70400,
+      "authorId": "u_a4",
+      "editorId": "u_e1",
+      "stage": "review",
+      "revisionStatus": "accepted",
+      "revisionCount": 2,
+      "approvalStatus": "pending",
+      "publicationStatus": "unpublished",
+      "isbn": null,
+      "pubDate": null,
+      "deadline": "2026-11-05",
+      "createdAt": "2026-10-12T09:13:00.000Z",
+      "updatedAt": "2026-10-28T13:13:00.000Z",
+      "history": [
+        {
+          "stage": "submitted",
+          "at": "2026-10-12T09:13:00.000Z",
+          "by": "u_a4",
+          "note": "Manuscript submitted"
+        },
+        {
+          "stage": "editing",
+          "at": "2026-10-16T10:13:00.000Z",
+          "by": "u_e1",
+          "note": "Moved to editing"
+        },
+        {
+          "stage": "proofreading",
+          "at": "2026-10-20T11:13:00.000Z",
+          "by": "u_e1",
+          "note": "Moved to proofreading"
+        },
+        {
+          "stage": "cover",
+          "at": "2026-10-24T12:13:00.000Z",
+          "by": "u_e1",
+          "note": "Moved to cover"
+        },
+        {
+          "stage": "review",
+          "at": "2026-10-28T13:13:00.000Z",
+          "by": "u_e1",
+          "note": "Moved to review"
+        }
+      ],
+      "comments": [
+        {
+          "id": "c_3_0",
+          "userId": "u_e1",
+          "text": "Thanks for the submission. I've started a first read — overall structure is strong.",
+          "stage": "editing",
+          "kind": "comment",
+          "at": "2026-10-24T11:30:00.000Z"
+        },
+        {
+          "id": "c_3_1",
+          "userId": "u_e1",
+          "text": "Revision looks good — moving it along.",
+          "stage": "proofreading",
+          "kind": "comment",
+          "at": "2026-10-26T16:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ms_005",
+      "title": "A Gentle Guide to Soil",
+      "genre": "Non-fiction",
+      "synopsis": "A friendly, illustrated introduction to soil health for balcony gardeners and small-plot farmers.",
+      "wordCount": 48000,
+      "authorId": "u_a5",
+      "editorId": "u_e2",
+      "stage": "published",
+      "revisionStatus": "accepted",
+      "revisionCount": 1,
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "isbn": "978-93-34567-89-2",
+      "pubDate": "2026-10-10",
+      "deadline": "2026-10-01",
+      "createdAt": "2026-10-07T09:14:00.000Z",
+      "updatedAt": "2026-10-28T12:30:00.000Z",
+      "history": [
+        {
+          "stage": "submitted",
+          "at": "2026-10-07T09:14:00.000Z",
+          "by": "u_a5",
+          "note": "Manuscript submitted"
+        },
+        {
+          "stage": "editing",
+          "at": "2026-10-11T10:14:00.000Z",
+          "by": "u_e2",
+          "note": "Moved to editing"
+        },
+        {
+          "stage": "proofreading",
+          "at": "2026-10-15T11:14:00.000Z",
+          "by": "u_e2",
+          "note": "Moved to proofreading"
+        },
+        {
+          "stage": "cover",
+          "at": "2026-10-19T12:14:00.000Z",
+          "by": "u_e2",
+          "note": "Moved to cover"
+        },
+        {
+          "stage": "review",
+          "at": "2026-10-23T13:14:00.000Z",
+          "by": "u_e2",
+          "note": "Moved to review"
+        },
+        {
+          "stage": "published",
+          "at": "2026-10-27T14:14:00.000Z",
+          "by": "u_e2",
+          "note": "Moved to published"
+        }
+      ],
+      "comments": [
+        {
+          "id": "c_4_0",
+          "userId": "u_e2",
+          "text": "Thanks for the submission. I've started a first read — overall structure is strong.",
+          "stage": "editing",
+          "kind": "comment",
+          "at": "2026-10-23T11:30:00.000Z"
+        },
+        {
+          "id": "c_4_1",
+          "userId": "u_e2",
+          "text": "Revision looks good — moving it along.",
+          "stage": "proofreading",
+          "kind": "comment",
+          "at": "2026-10-26T16:30:00.000Z"
+        },
+        {
+          "id": "c_4_2",
+          "userId": "u_e2",
+          "text": "Approved for publication. Metadata and cover checked.",
+          "stage": "review",
+          "kind": "approval",
+          "at": "2026-10-28T12:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ms_006",
+      "title": "Paper Boats on the Ganga",
+      "genre": "Poetry",
+      "synopsis": "Sixty poems written on the ghats of Varanasi between monsoon and winter.",
+      "wordCount": 18500,
+      "authorId": "u_a2",
+      "editorId": null,
+      "stage": "submitted",
+      "revisionStatus": "none",
+      "revisionCount": 0,
+      "approvalStatus": "pending",
+      "publicationStatus": "unpublished",
+      "isbn": null,
+      "pubDate": null,
+      "deadline": "2026-12-15",
+      "createdAt": "2026-10-26T09:15:00.000Z",
+      "updatedAt": "2026-10-26T09:15:00.000Z",
+      "history": [
+        {
+          "stage": "submitted",
+          "at": "2026-10-26T09:15:00.000Z",
+          "by": "u_a2",
+          "note": "Manuscript submitted"
+        }
+      ],
+      "comments": []
+    },
+    {
+      "id": "ms_007",
+      "title": "Algorithms for the Curious Mind",
+      "genre": "Academic",
+      "synopsis": "An undergraduate-friendly tour of classic algorithms with puzzles, stories and worked exercises.",
+      "wordCount": 112000,
+      "authorId": "u_a1",
+      "editorId": "u_e2",
+      "stage": "editing",
+      "revisionStatus": "revised",
+      "revisionCount": 2,
+      "approvalStatus": "pending",
+      "publicationStatus": "unpublished",
+      "isbn": null,
+      "pubDate": null,
+      "deadline": "2026-10-25",
+      "createdAt": "2026-10-24T09:16:00.000Z",
+      "updatedAt": "2026-10-28T10:16:00.000Z",
+      "history": [
+        {
+          "stage": "submitted",
+          "at": "2026-10-24T09:16:00.000Z",
+          "by": "u_a1",
+          "note": "Manuscript submitted"
+        },
+        {
+          "stage": "editing",
+          "at": "2026-10-28T10:16:00.000Z",
+          "by": "u_e2",
+          "note": "Moved to editing"
+        }
+      ],
+      "comments": [
+        {
+          "id": "c_6_0",
+          "userId": "u_e2",
+          "text": "Thanks for the submission. I've started a first read — overall structure is strong.",
+          "stage": "editing",
+          "kind": "comment",
+          "at": "2026-10-24T11:30:00.000Z"
+        },
+        {
+          "id": "c_6_1",
+          "userId": "u_e2",
+          "text": "Please add worked solutions for the dynamic programming exercises.",
+          "stage": "editing",
+          "kind": "revision",
+          "at": "2026-10-22T10:30:00.000Z"
+        },
+        {
+          "id": "c_6_2",
+          "userId": "u_a1",
+          "text": "Added solutions for all 14 exercises and a new appendix. Ready for another look.",
+          "stage": "editing",
+          "kind": "comment",
+          "at": "2026-10-27T18:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ms_008",
+      "title": "The Cartographer's Daughter",
+      "genre": "Romance",
+      "synopsis": "A map-maker's daughter and a rival surveyor race to chart a river that keeps changing course.",
+      "wordCount": 88300,
+      "authorId": "u_a3",
+      "editorId": "u_e1",
+      "stage": "review",
+      "revisionStatus": "accepted",
+      "revisionCount": 1,
+      "approvalStatus": "approved",
+      "publicationStatus": "scheduled",
+      "isbn": null,
+      "pubDate": "2026-11-15",
+      "deadline": "2026-11-01",
+      "createdAt": "2026-10-11T09:17:00.000Z",
+      "updatedAt": "2026-10-28T12:30:00.000Z",
+      "history": [
+        {
+          "stage": "submitted",
+          "at": "2026-10-11T09:17:00.000Z",
+          "by": "u_a3",
+          "note": "Manuscript submitted"
+        },
+        {
+          "stage": "editing",
+          "at": "2026-10-15T10:17:00.000Z",
+          "by": "u_e1",
+          "note": "Moved to editing"
+        },
+        {
+          "stage": "proofreading",
+          "at": "2026-10-19T11:17:00.000Z",
+          "by": "u_e1",
+          "note": "Moved to proofreading"
+        },
+        {
+          "stage": "cover",
+          "at": "2026-10-23T12:17:00.000Z",
+          "by": "u_e1",
+          "note": "Moved to cover"
+        },
+        {
+          "stage": "review",
+          "at": "2026-10-27T13:17:00.000Z",
+          "by": "u_e1",
+          "note": "Moved to review"
+        }
+      ],
+      "comments": [
+        {
+          "id": "c_7_0",
+          "userId": "u_e1",
+          "text": "Thanks for the submission. I've started a first read — overall structure is strong.",
+          "stage": "editing",
+          "kind": "comment",
+          "at": "2026-10-23T11:30:00.000Z"
+        },
+        {
+          "id": "c_7_1",
+          "userId": "u_e1",
+          "text": "Revision looks good — moving it along.",
+          "stage": "proofreading",
+          "kind": "comment",
+          "at": "2026-10-26T16:30:00.000Z"
+        },
+        {
+          "id": "c_7_2",
+          "userId": "u_e1",
+          "text": "Approved for publication. Metadata and cover checked.",
+          "stage": "review",
+          "kind": "approval",
+          "at": "2026-10-28T12:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ms_009",
+      "title": "Tiny Tales for Big Dreams",
+      "genre": "Children's",
+      "synopsis": "Twelve bedtime stories about small animals with enormous ambitions, with space for illustrations.",
+      "wordCount": 14000,
+      "authorId": "u_a5",
+      "editorId": "u_e3",
+      "stage": "cover",
+      "revisionStatus": "none",
+      "revisionCount": 0,
+      "approvalStatus": "pending",
+      "publicationStatus": "unpublished",
+      "isbn": null,
+      "pubDate": null,
+      "deadline": "2026-11-08",
+      "createdAt": "2026-10-14T09:18:00.000Z",
+      "updatedAt": "2026-10-28T10:30:00.000Z",
+      "history": [
+        {
+          "stage": "submitted",
+          "at": "2026-10-14T09:18:00.000Z",
+          "by": "u_a5",
+          "note": "Manuscript submitted"
+        },
+        {
+          "stage": "editing",
+          "at": "2026-10-18T10:18:00.000Z",
+          "by": "u_e3",
+          "note": "Moved to editing"
+        },
+        {
+          "stage": "proofreading",
+          "at": "2026-10-22T11:18:00.000Z",
+          "by": "u_e3",
+          "note": "Moved to proofreading"
+        },
+        {
+          "stage": "cover",
+          "at": "2026-10-26T12:18:00.000Z",
+          "by": "u_e3",
+          "note": "Moved to cover"
+        }
+      ],
+      "comments": [
+        {
+          "id": "c_8_0",
+          "userId": "u_e3",
+          "text": "Thanks for the submission. I've started a first read — overall structure is strong.",
+          "stage": "editing",
+          "kind": "comment",
+          "at": "2026-10-22T11:30:00.000Z"
+        },
+        {
+          "id": "c_8_1",
+          "userId": "u_e3",
+          "text": "Cover brief shared with the illustrator. Two concepts due early next week.",
+          "stage": "cover",
+          "kind": "comment",
+          "at": "2026-10-28T10:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ms_010",
+      "title": "Salt & Saffron",
+      "genre": "Non-fiction",
+      "synopsis": "A food writer follows the salt and saffron trade routes across India, one recipe per town.",
+      "wordCount": 53000,
+      "authorId": "u_a4",
+      "editorId": null,
+      "stage": "submitted",
+      "revisionStatus": "none",
+      "revisionCount": 0,
+      "approvalStatus": "pending",
+      "publicationStatus": "unpublished",
+      "isbn": null,
+      "pubDate": null,
+      "deadline": "2026-12-01",
+      "createdAt": "2026-10-28T09:19:00.000Z",
+      "updatedAt": "2026-10-28T09:19:00.000Z",
+      "history": [
+        {
+          "stage": "submitted",
+          "at": "2026-10-28T09:19:00.000Z",
+          "by": "u_a4",
+          "note": "Manuscript submitted"
+        }
+      ],
+      "comments": []
+    },
+    {
+      "id": "ms_011",
+      "title": "Echoes of Nothing",
+      "genre": "Fiction",
+      "synopsis": "An experimental novella told entirely through voicemails left for a number that no longer exists.",
+      "wordCount": 39000,
+      "authorId": "u_a1",
+      "editorId": "u_e1",
+      "stage": "review",
+      "revisionStatus": "none",
+      "revisionCount": 0,
+      "approvalStatus": "rejected",
+      "publicationStatus": "unpublished",
+      "isbn": null,
+      "pubDate": null,
+      "deadline": "2026-10-20",
+      "createdAt": "2026-10-11T09:20:00.000Z",
+      "updatedAt": "2026-10-27T13:20:00.000Z",
+      "history": [
+        {
+          "stage": "submitted",
+          "at": "2026-10-11T09:20:00.000Z",
+          "by": "u_a1",
+          "note": "Manuscript submitted"
+        },
+        {
+          "stage": "editing",
+          "at": "2026-10-15T10:20:00.000Z",
+          "by": "u_e1",
+          "note": "Moved to editing"
+        },
+        {
+          "stage": "proofreading",
+          "at": "2026-10-19T11:20:00.000Z",
+          "by": "u_e1",
+          "note": "Moved to proofreading"
+        },
+        {
+          "stage": "cover",
+          "at": "2026-10-23T12:20:00.000Z",
+          "by": "u_e1",
+          "note": "Moved to cover"
+        },
+        {
+          "stage": "review",
+          "at": "2026-10-27T13:20:00.000Z",
+          "by": "u_e1",
+          "note": "Moved to review"
+        }
+      ],
+      "comments": [
+        {
+          "id": "c_10_0",
+          "userId": "u_e1",
+          "text": "Thanks for the submission. I've started a first read — overall structure is strong.",
+          "stage": "editing",
+          "kind": "comment",
+          "at": "2026-10-23T11:30:00.000Z"
+        },
+        {
+          "id": "c_10_1",
+          "userId": "u_admin",
+          "text": "Concept doesn't fit our list this season. Rejected at final review; the author may resubmit a reworked draft.",
+          "stage": "review",
+          "kind": "approval",
+          "at": "2026-10-26T14:30:00.000Z"
+        }
+      ]
+    }
+  ],
+  "activity": [
+    {
+      "id": "a_3",
+      "at": "2026-10-28T13:13:00.000Z",
+      "userId": "u_e1",
+      "msId": "ms_004",
+      "text": "moved “Seven Stitches” to Final Review"
+    },
+    {
+      "id": "a_4",
+      "at": "2026-10-28T12:30:00.000Z",
+      "userId": "u_e2",
+      "msId": "ms_005",
+      "text": "moved “A Gentle Guide to Soil” to Published"
+    },
+    {
+      "id": "a_7",
+      "at": "2026-10-28T12:30:00.000Z",
+      "userId": "u_e1",
+      "msId": "ms_008",
+      "text": "moved “The Cartographer's Daughter” to Final Review"
+    },
+    {
+      "id": "a_2",
+      "at": "2026-10-28T10:30:00.000Z",
+      "userId": "u_e1",
+      "msId": "ms_003",
+      "text": "moved “Quantum Gardens” to Cover Design"
+    },
+    {
+      "id": "a_8",
+      "at": "2026-10-28T10:30:00.000Z",
+      "userId": "u_e3",
+      "msId": "ms_009",
+      "text": "moved “Tiny Tales for Big Dreams” to Cover Design"
+    },
+    {
+      "id": "a_6",
+      "at": "2026-10-28T10:16:00.000Z",
+      "userId": "u_a1",
+      "msId": "ms_007",
+      "text": "moved “Algorithms for the Curious Mind” to Editing"
+    },
+    {
+      "id": "a_0",
+      "at": "2026-10-28T10:10:00.000Z",
+      "userId": "u_e1",
+      "msId": "ms_001",
+      "text": "moved “The Lantern Keepers of Hollow Bay” to Editing"
+    },
+    {
+      "id": "a_9",
+      "at": "2026-10-28T09:19:00.000Z",
+      "userId": "u_a4",
+      "msId": "ms_010",
+      "text": "submitted “Salt & Saffron”"
+    },
+    {
+      "id": "a_10",
+      "at": "2026-10-27T13:20:00.000Z",
+      "userId": "u_admin",
+      "msId": "ms_011",
+      "text": "moved “Echoes of Nothing” to Final Review"
+    },
+    {
+      "id": "a_1",
+      "at": "2026-10-27T11:11:00.000Z",
+      "userId": "u_e2",
+      "msId": "ms_002",
+      "text": "moved “Monsoon Ledger: A Merchant's Memoir” to Proofreading"
+    },
+    {
+      "id": "a_5",
+      "at": "2026-10-26T09:15:00.000Z",
+      "userId": "u_a2",
+      "msId": "ms_006",
+      "text": "submitted “Paper Boats on the Ganga”"
+    }
+  ]
+}
