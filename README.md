@@ -47,4 +47,4 @@ js/utils.js         escaping, dates, regex validation, ISBN-13 checksum
 js/store.js         data + workflow rules + localStorage + fetch of seed.json
 js/views.js         functions that return HTML for each page
 js/app.js           router, event delegation, dialogs, drag-and-drop, theme
-data/seed.json      sample data (11 manuscripts, 9 people) loaded with the Fetch API.
+data/seed.json      sample data (11 manuscripts, 9 people) loaded with the Fetch API..
